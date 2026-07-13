@@ -9,8 +9,8 @@ print(set1)'''
 '''for i,item in enumerate(x,start=2):
     print(i,item,end=" ")'''
 y=[1,2,3,5,6,7,8]
-for item1,item2 in zip(x,y):
-    print(item1,item2)
+'''for item1,item2 in zip(x,y):
+    print(item1,item2)'''
 '''dict2=dict(zip(x,y))
 print(dict2)'''
 '''scores = {
@@ -32,3 +32,11 @@ for (student, subject), score in scores.items():
         count2+=1
 print(scoresa/count1)
 print(scoresb/count2)'''
+def f(x, items=None):
+    if items is None:
+        items = []
+    items.append(x)
+    return items
+print(f(1))
+print(f(2))
+print(f(3,[4,5]))
