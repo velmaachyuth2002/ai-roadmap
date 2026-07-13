@@ -8,8 +8,8 @@ scores = {
 
 total_scores = {}
 subject_counts = {}
-for key, score in scores.items():
-    student = key[0]
+
+for (student, subject), score in scores.items():
 
     if student in total_scores:
         total_scores[student] += score
@@ -17,6 +17,7 @@ for key, score in scores.items():
     else:
         total_scores[student] = score
         subject_counts[student] = 1
+
 averages = {}
 
 for student in total_scores:

@@ -1,3 +1,4 @@
+
 import random
 import time
 
@@ -12,7 +13,7 @@ def dedupe_version1_no_set(nums):
     return result
 
 def dedupe_version2_with_set(nums):
-   
+ 
     result = []
     seen = set() 
     
@@ -33,13 +34,7 @@ print(f"Empty:  {test_empty} -> {dedupe_version2_with_set(test_empty)}")
 print(f"Dupes:  {test_dupes} -> {dedupe_version2_with_set(test_dupes)}")
 print(f"Sample: {test_sample} -> {dedupe_version2_with_set(test_sample)}")
 
-
-
 large_input = [random.randint(0, 10000) for _ in range(50000)]
-
-
-
-
 start_v1 = time.perf_counter()
 res_v1 = dedupe_version1_no_set(large_input)
 end_v1 = time.perf_counter()
@@ -59,3 +54,4 @@ assert res_v1 == res_v2, "Error: The outputs do not match!"
 
 ratio = time_v1 / time_v2
 print(f"\nFinding: Set version is ~{ratio:.2f}x faster.")
+
