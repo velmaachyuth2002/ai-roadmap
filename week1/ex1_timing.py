@@ -9,7 +9,7 @@ for i in range(200000):
     list1.append(f"user_{suff}")
 target="zzzz"
 start=time.perf_counter()
-for i  in range(1000):
+for _ in range(1000):
     if target in list1:
         print("Found")
 
@@ -18,7 +18,7 @@ listtime=end - start
 print(f"Time taken: {listtime} seconds for list search")
 set1=set(list1)
 start=time.perf_counter()
-for i in range(1000):
+for _ in range(1000):
     if target in set1:
         print("Found")
 
