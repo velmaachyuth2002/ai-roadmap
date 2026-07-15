@@ -1,0 +1,23 @@
+[
+    {
+        "date": "2026-07-14",
+        "topic": "classes",
+        "minutes": 90,
+        "confidence": 4,
+        "notes": "went well"
+    },
+    {
+        "date": "2026-07-15",
+        "topic": "classes",
+        "minutes": 60,
+        "confidence": 5,
+        "notes": "good session"
+    },
+    {
+        "date": "2026-07-15",
+        "topic": "pytorch",
+        "minutes": 120,
+        "confidence": 3,
+        "notes": "learned Dataset"
+    }
+]
