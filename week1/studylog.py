@@ -65,5 +65,6 @@ if __name__=="__main__":
     '''log.add_entry("2026-07-14", "classes", 90, 4, "went well")
     log.add_entry("2026-07-15", "classes", 60, 5, "good session")
     log.add_entry("2026-07-15", "pytorch", 120, 3, "learned Dataset")'''
+    log.add_entry("2026-07-16", "dsa", 90, 4, "sliding window - conflated variable but solved it")
 
     log.summary()

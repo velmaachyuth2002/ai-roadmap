@@ -19,5 +19,12 @@
         "minutes": 120,
         "confidence": 3,
         "notes": "learned Dataset"
+    },
+    {
+        "date": "2026-07-16",
+        "topic": "dsa",
+        "minutes": 90,
+        "confidence": 4,
+        "notes": "sliding window - conflated variable but solved it"
     }
 ]
