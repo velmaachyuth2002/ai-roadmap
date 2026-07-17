@@ -26,5 +26,13 @@
         "minutes": 90,
         "confidence": 4,
         "notes": "sliding window - conflated variable but solved it"
+    },
+    {
+        "date": "2026-07-17",
+        "topic": "stack",
+        "minutes": 90,
+        "confidence": 4,
+        "notes": "did solid work on stack "
     }
+
 ]
