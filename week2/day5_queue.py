@@ -6,7 +6,7 @@ class RecentCounter:
 
     def ping(self, t: int) -> int:
         self.q.append(t)
-        while self.q and self.q[0]<t-3000:
+        while self.q and self.q[0]<t-3000: # expire anything older than the 3000ms window
             self.q.popleft()
         return len(self.q)
 rc = RecentCounter()

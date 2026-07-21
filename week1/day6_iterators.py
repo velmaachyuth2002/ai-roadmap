@@ -1,4 +1,5 @@
 import json
+import time
 from pathlib import Path
 
 from studylog import LogEntry
@@ -15,7 +16,6 @@ def read_entries(path):
         print("file was corrupted")
         return
 
-
 class Countdown:
     def __init__(self,start):
         self.start=start
@@ -31,7 +31,6 @@ count=Countdown(5)
 for num in count:
     print(num)
 
-import time
 
 def memory_demo():
     
